@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins');
+@import url('https://fonts.googleapis.com/css?family=Athiti');
 *{
     outline: none !important;
     font-family: 'Poppins', sans-serif;
@@ -44,6 +45,11 @@ p{
     top :0 ;
     width: 100%;
     height: 100vh;
-   
-    background-image: url(pic/banner.jpg) ;
+    background-image: url(pic/banner2.jpg) ;
+    color: #fff; 
+}
+#htitle{
+    font-family: 'Athiti', sans-serif;
+    font-size: 1.4rem ;
+    
 }
