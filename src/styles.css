@@ -55,11 +55,7 @@ p{
 }
 
 
-#htitle{
-    font-family: 'Athiti', sans-serif;
-    font-size: 1.35rem ;
-    
-}
+
 .height100p{
     height: 100vh;
 
@@ -76,14 +72,18 @@ p{
     z-index: 10;
 }
 .contentBox h1{
+    padding-top:18%  ; 
     font-weight: 800;
-    color: #fff ;
+    color: rgb(255, 255, 255) ;
     text-transform: uppercase ;
     font-size: 5rem;
 }
+
 .contentBox p{
     
     color: #fff ;
+    font-family: 'Athiti', sans-serif;
+    font-size: 1.35rem ;
 
     
 }
