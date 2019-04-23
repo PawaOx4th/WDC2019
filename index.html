@@ -13,7 +13,7 @@
         integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
     <link rel="stylesheet" href="src/styles.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
     <head>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
             <div class="container">
@@ -24,7 +24,7 @@
                 </button>
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul class="navbar-nav ml-lg-auto">
-                            <li class="nav-item active">
+                            <li class="nav-item ">
                                 <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
                             </li>
                             <li class="nav-item">
@@ -49,8 +49,10 @@
         <div class="container h500">
             <div class="contentBox h100">
                <div class="headertitle text-center">
-                <img src="src/pic/Logo.png" alt="" id="logo">
-                <h1 id="h1"> Christmas </h1>
+                <!--<img src="src/pic/Logo.png" alt="" id="logo">-->
+                <br><br>
+                <h1> Christmas </h1>
+                <br>
                 <p id="htitle">" ถึงช่วงปลายปีทีไร ชาวไทยเราก็มีเรื่องฉลองอีกแล้ว ไม่ว่าจะเป็นวันปีใหม่หรือวันคริสต์มาสที่กำลังจะเข้ามาถึง
                 แม้ว่าวันคริสต์มาสนี่ดูเหมือนจะไม่ค่อยเกี่ยวข้องกับคนไทยที่นับถือศาสนาพุทธสักเท่าไร แต่คนไทยซะอย่าง
                 ฉลองได้ทุกเทศกาลอยู่แล้ว แต่ก่อนที่จะไปฉลองกัน ลองมารู้จักกับวันคริสต์มาสก่อนดีกว่า "</p>
@@ -78,7 +80,7 @@
                             <img src="src/pic/Christmas Christmas -1.jpg" class="img-fluid">
                         </div>
                         <div class="content">
-                            <h3>Place Name<be><span> Contry Name </span></h3>
+                            <h3>Place Name<br><span> Contry Name </span></h3>
                         </div>
                     </div>
                 </div>
@@ -88,17 +90,18 @@
                             <img src="src/pic/Christmas Christmas -2.jpg" class="img-fluid">
                         </div>
                         <div class="content">
-                            <h3>Place Name<be><span> Contry Name </span></h3>
+                            <h3>Place Name<br>
+                            <span> Contry Name </span></h3>
                         </div>
                     </div>
                 </div>
-                <div class="col-sm-4">
+                <div class="col-sm-4"> 
                     <div class="placeBox">
                         <div class="imgBx">
                             <img src="src/pic/Christmas Christmas -3.jpg" class="img-fluid">
                         </div>
                         <div class="content">
-                            <h3>Place Name<be><span> Contry Name </span></h3>
+                            <h3>Place Name<br><span> Contry Name </span></h3>
                         </div>
                     </div>
                 </div>
@@ -110,7 +113,7 @@
             <div class="container">
                 <div class="contentBox h100">
                     <div>
-                        <h1>Adventure is Everywher</h1>
+                        <h2>Adventure is Everywher</h2>
                         <p>Cras quis aliquam nunc. Aliquam non dui non elit tincidunt ullamcorper. Suspendisse potenti. Aenean pulvinar at risus et
                         fringilla. Nullam posuere elit sagittis turpis euismod vulputate. Sed feugiat congue odio, nec ullamcorper libero
                         volutpat eu. Sed posuere sit amet nulla in sollicitudin. Cras posuere scelerisque ante, in auctor nisl. Curabitur
@@ -118,17 +121,17 @@
                         nisl ut ante condimentum ornare. Sed nec velit porta, posuere dui sed, porta sapien. Nam lacinia lobortis mi, eu
                         lobortis justo. Nulla euismod sagittis suscipit. Phasellus sed suscipit odio. Quisque nec lorem eleifend, fringilla elit
                         eu, facilisis augue.</p>
-                        <a href="#" class="btn btn-secondary">Read more</a>
+                        <a href="#" class="btn btnD1">Read more</a>
                     </div>
 
                 </div>
             </div>
     </section>
-    <section class="sec3" id="blog">
+    <section class="blog" id="blog">
         <div class="container">
             <div class="row">
                 <div class="offset-sm-2 col-sm-8">
-                    <div class="headerText">
+                    <div class="headerText text-center">
                         <h2>
                           Out Latest  Post 
                         </h2>
@@ -146,11 +149,10 @@
                         </div>
                         <div class="content">
                             <h2>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</h2>
-                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
-                            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
-                            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
-                            sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker
-                            including versions of Lorem Ipsum.</p>
+                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer
+                            took a galley of
+                            type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                            the leap into</p>
                         </div>
                     </div>
                 </div>
@@ -165,11 +167,7 @@
                                 took a galley of
                                 type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
                                 the leap into
-                                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                                release of Letraset
-                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                                PageMaker
-                                including versions of Lorem Ipsum.</p>
+                               </p>
                         </div>
                     </div>
                 </div>
@@ -184,11 +182,7 @@
                                 took a galley of
                                 type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
                                 the leap into
-                                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                                release of Letraset
-                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                                PageMaker
-                                including versions of Lorem Ipsum.</p>
+                                </p>
                         </div>
                     </div>
                 </div>
@@ -203,18 +197,14 @@
                                 took a galley of
                                 type and scrambled it to make a type specimen book. It has survived not only five centuries, but also
                                 the leap into
-                                electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the
-                                release of Letraset
-                                sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus
-                                PageMaker
-                                including versions of Lorem Ipsum.</p>
+                                </p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="content" id="contract">
+    <section class="contact" id="contract">
         <div class="container">
             <div class="row">
                 <div class="cok-sm-12">
@@ -245,8 +235,8 @@
                             <label for="">Message</label>
                             <textarea   name="" class="form-control"></textarea>
                         </div>
-                        <div class="from-group">
-                           <button class="btn btn-primary">Send</button>
+                        <div class="from-group text-center">
+                           <button class="btn btnD1">Send</button>
                         </div>
                     </form>
                 </div>
@@ -258,10 +248,10 @@
             <div class="row">
                 <div class="col-sm-12">
                     <ul class="sci">
-                        <li><a href=""><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href=""><i class="fab fa-twitter-square"></i></a></li>
-                        <li><a href=""><i class="fab fa-instagram"></i></a></li>
-                        <li><a href=""><i class="fab fa-google-plus"></i></a></li>
+                        <li><a href="" id="f"><i class="fab fa-facebook-f" ></i></a></li>
+                        <li><a href=""id="t"><i class="fab fa-twitter-square"></i></a></li>
+                        <li><a href=""id="i"><i class="fab fa-instagram"></i></a></li>
+                        <li><a href=""id="g"><i class="fab fa-google-plus"></i></a></li>
                     </ul>
                     <p class="cpryt">
                         @Copyright 2019 PAWANNNACHAI | Template By PAWANNNNACHAI
